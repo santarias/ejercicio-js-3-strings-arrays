@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9ed9e3;
+}
+
+.contenedor {
+  padding: 30px 50px;
+  border-radius: 8px;
+  background-color: #59a17e;
+  height: 240px;
+  width: 500px;
+  color: #fff;
+  flex-direction: column;
+}
+
+.contenedor > textarea{
+  border-radius: inherit;
+}
+
+.contenedor > input[type=submit] {
+  margin-top: 20px;
+  width: 80px;
+  padding-top: 5px;
+}
